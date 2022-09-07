@@ -12,7 +12,7 @@
   // App Configuration
   appManager.addApp({
       "name": "Enab",
-      "title": "تطبيقي الخاص",
+      "title": "تطبيقي لو احيائي ححححخخخخخخخخ ",
       "minWidth": 400,
       "minHeight": 300,
   })
