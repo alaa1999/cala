@@ -1,17 +1,37 @@
 <template>
   <!-- Application -->
   <div p="4">
-    <span un-text="white">Hello To Alaa New App</span>
-    <UiButton @click="app.toggleRunning()">Exit App</UiButton>
-  </div>
-  <UiButton color="primary"> Botton </UiButton>
+    <UiInput label="Username" />
+    <UiButton color="success">
+Add Section
+</UiButton>
+<UiButton color="error" >Cancel </UiButton>
+
+
+   <div class="bg-amber-500 h-10">
+     hiii
+   </div> 
+   
+   </div> 
+
+ 
+ 
 </template>
 
 <script setup>
-const props = defineProps({
-  app: {
-    type: Object,
-    required: true,
-  },
-});
+  import { ref, computed } from '#imports'
+  new Vue({
+  el: '#tags',
+  data: {
+    tags: ['JavaScript', 'MVVM', 'Vue.js']
+  }
+})
+// const props = defineProps({
+//   app: {
+//     type: Object,
+//     required: true,
+//   },
+
+// });
+
 </script>
